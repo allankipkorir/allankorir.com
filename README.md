@@ -1,1 +1,1 @@
-# allankorir.com
+www.allankorir.com
