@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="main.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="main_mobile.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-        <script src="index.js"></script>
     </head>
     <body class='body'>
-        <div>
-            <h1 class='heading'>Allan Korir</h1>
-            <a href="https://www.linkedin.com/in/allan-korir-1764b3140/"><div class=linkedinIcon onclick="linkedInClicked" id="linkedInDiv"></div></a>
-            <a href="https://github.com/allankipkorir"><div class=githubIcon></div></a>
-            <a href="https://twitter.com/allankkorir"><div class=twitterIcon></div></a>
+        <div class='outerDiv'>
+            <div class='headingDiv'>
+                <h1 class='heading'>Allan Korir</h1>
+            </div>
+            <div class='icons'>
+                <div class=twitterIcon onclick="window.location.href = 'https://twitter.com/allankkorir'"></div>
+                <div class=githubIcon onclick="window.location.href = 'https://github.com/allankipkorir'"></div>
+                <div class=linkedinIcon onclick="window.location.href = 'https://www.linkedin.com/in/allan-korir-1764b3140/';" id="linkedInDiv"></div>
+            </div>
         </div>
     </body>
 </html>
+

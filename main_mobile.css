@@ -3,7 +3,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 200;
-    font-size: 72px;
+    font-size: 55px;
     text-align: center;
 
     color: #000000;         
@@ -58,14 +58,14 @@
 }
 
 .icons{
-    width: 60%;
-    height: 25%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .outerDiv{
-    width: 26%;
+    width: 100%;
     height: 30vh;
     margin-top: 30vh;
     margin-bottom: 40vh;
